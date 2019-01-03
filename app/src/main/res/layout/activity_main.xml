@@ -34,6 +34,18 @@
             android:onClick="openDashboard"
             android:textColor="@android:color/white"
             android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Profile"
+            android:onClick="openProfile"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"/>
+
+
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"

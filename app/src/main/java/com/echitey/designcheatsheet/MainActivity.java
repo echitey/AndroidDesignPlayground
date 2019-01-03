@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private ActionBarDrawerToggle toggle;
 
     private Toolbar toolbar;
+    private Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,12 +47,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openActivity(View view) {
-        Intent intent = new Intent(this, XmlParsing.class);
+        intent = new Intent(this, XmlParsing.class);
         startActivity(intent);
     }
 
     public void openDashboard(View view) {
-        Intent intent = new Intent(this, DashboardActivity.class);
+        intent = new Intent(this, DashboardActivity.class);
+        startActivity(intent);
+    }
+
+    public void openProfile(View view) {
+        intent = new Intent(this, ProfileActivity.class);
         startActivity(intent);
     }
 }

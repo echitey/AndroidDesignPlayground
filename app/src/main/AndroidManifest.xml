@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".XmlParsing" />
-        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>
