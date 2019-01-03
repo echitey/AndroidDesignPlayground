@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<players>
+    <player>
+        <name>Abalo Koffi</name>
+        <age>24</age>
+        <position>Milieu</position>
+    </player>
+    <player>
+        <name>Agassa Kossi</name>
+        <age>31</age>
+        <position>Guardien</position>
+    </player>
+    <player>
+        <name>MBang Patrick</name>
+        <age>25</age>
+        <position>Defense</position>
+    </player>
+</players>

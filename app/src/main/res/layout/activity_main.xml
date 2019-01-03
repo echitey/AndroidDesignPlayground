@@ -24,6 +24,24 @@
             android:text="MAIN LAYOUT"
             android:textAlignment="center"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Dashboard"
+            android:onClick="openDashboard"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="XML Parsing"
+            android:onClick="openActivity"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <android.support.design.widget.NavigationView
