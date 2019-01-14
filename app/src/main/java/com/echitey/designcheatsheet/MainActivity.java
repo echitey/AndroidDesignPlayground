@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.transition.Slide;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -58,6 +59,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void openProfile(View view) {
         intent = new Intent(this, ProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSlider(View view) {
+        intent = new Intent(this, SliderActivity.class);
+        startActivity(intent);
+    }
+
+    public void openCollapse(View view) {
+        intent = new Intent(this, CollapsingToolbarActivity.class);
         startActivity(intent);
     }
 }
